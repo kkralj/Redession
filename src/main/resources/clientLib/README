@@ -1,0 +1,3 @@
+This folder contains dependencies required to generate client's jar file at runtime.
+
+"libs.zip" contains: netty-3.10.5.Final.jar and commons-lang3-3.4.jar, both unzipped and merged into single zip folder

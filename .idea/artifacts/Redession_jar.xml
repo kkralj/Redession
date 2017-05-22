@@ -1,0 +1,58 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Redession:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Redession_jar</output-path>
+    <root id="archive" name="Redession.jar">
+      <element id="module-output" name="Redession" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/miglayout/miglayout/3.7.3.1/miglayout-3.7.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/sarxos/webcam-capture/0.3.10/webcam-capture-0.3.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/libfreenect/0.4-0.8/libfreenect-0.4-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg/2.2.1-0.8/ffmpeg-2.2.1-0.8-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg/2.2.1-0.8/ffmpeg-2.2.1-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/nativelibs4java/bridj/0.6.2/bridj-0.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/libdc1394/2.2.2-0.8/libdc1394-2.2.2-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/2.4.9-0.8/opencv-2.4.9-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/artoolkitplus/2.3.0-0.8/artoolkitplus-2.3.0-0.8-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/2.4.9-0.8/opencv-2.4.9-0.8-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/videoinput/0.200-0.8/videoinput-0.200-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/flycapture/1.7.17-0.8/flycapture-1.7.17-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/videoinput/0.200-0.8/videoinput-0.200-0.8-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacv/0.8/javacv-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/libdc1394/2.2.2-0.8/libdc1394-2.2.2-0.8-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/artoolkitplus/2.3.0-0.8/artoolkitplus-2.3.0-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp/0.8/javacpp-0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/flycapture/1.7.17-0.8/flycapture-1.7.17-0.8-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/libfreenect/0.4-0.8/libfreenect-0.4-0.8-linux-x86_64.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.github.sarxos:webcam-capture:0.3.10" />
+      <element id="library" level="project" name="Maven: com.miglayout:miglayout:3.7.3.1" />
+      <element id="library" level="project" name="Maven: com.nativelibs4java:bridj:0.6.2" />
+      <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+      <element id="library" level="project" name="Maven: io.netty:netty:3.10.5.Final" />
+      <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:artoolkitplus:2.3.0-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:artoolkitplus:linux-x86_64:2.3.0-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:ffmpeg:2.2.1-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:ffmpeg:linux-x86_64:2.2.1-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:flycapture:1.7.17-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:flycapture:linux-x86_64:1.7.17-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:libdc1394:2.2.2-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:libdc1394:linux-x86_64:2.2.2-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:libfreenect:0.4-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:libfreenect:linux-x86_64:0.4-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:opencv:2.4.9-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:opencv:linux-x86_64:2.4.9-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:videoinput:0.200-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco.javacpp-presets:videoinput:linux-x86_64:0.200-0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco:javacpp:0.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco:javacv:0.8" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+    </root>
+  </artifact>
+</component>
