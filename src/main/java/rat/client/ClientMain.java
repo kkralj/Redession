@@ -342,7 +342,7 @@ public class ClientMain {
 
     public static void main(String[] args) throws Exception {
 //        screenMultipleMonitors();
-        processConfig();
+        // processConfig();
 //        Util.shutdown(1);
 
         // TODO: live keylogger
